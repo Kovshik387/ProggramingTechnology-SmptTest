@@ -50,7 +50,7 @@ public class TestRunner {
             System.out.println(item);
         }
 
-        System.out.println(ANSI_RED + "Negative tests");
+        System.out.println(ANSI_RED + "Negative tests\n");
         for (var item: negativeTestResult){
             System.out.println(item);
         }
