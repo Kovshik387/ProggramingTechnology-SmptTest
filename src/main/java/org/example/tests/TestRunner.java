@@ -45,7 +45,7 @@ public class TestRunner {
             }
         }
 
-        System.out.println(ANSI_GREEN + "Negative tests\n");
+        System.out.println(ANSI_GREEN + "Positive tests\n");
         for(var item: positiveTestResult){
             System.out.println(item);
         }
